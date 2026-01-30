@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Gmail colors */
+  --color-gmail-red: #ea4335;
+  --color-gmail-blue: #1a73e8;
+  --color-gmail-yellow: #fbbc04;
+  --color-gmail-green: #34a853;
+
+  --color-text-primary: #202124;
+  --color-text-secondary: #5f6368;
+  --color-text-tertiary: #80868b;
+
+  --color-border: #dadce0;
+  --color-bg-gray: #f5f5f5;
+  --color-sidebar-hover: #f6fafe;
+  --color-sidebar-active: #fce8e6;
+
+  --color-browser-chrome: #3c4043;
+  --color-compose-header: #404040;
+
+  --color-category-updates: #944fe0;
+  --color-category-social: #3474e0;
+  --color-category-promotions: #d6792d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
