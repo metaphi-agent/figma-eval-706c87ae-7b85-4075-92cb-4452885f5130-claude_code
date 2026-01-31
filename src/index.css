@@ -1,53 +1,87 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: 'Roboto', 'Google Sans', -apple-system, BlinkMacSystemFont, sans-serif;
 
-  /* Gmail colors */
-  --color-gmail-red: #ea4335;
-  --color-gmail-blue: #1a73e8;
-  --color-gmail-yellow: #fbbc04;
-  --color-gmail-green: #34a853;
+  /* Primary colors */
+  --color-primary-text: #202124;
+  --color-text-light: rgba(0, 0, 0, 0.54);
+  --color-text-medium: rgba(0, 0, 0, 0.37);
+  --color-text-subtle: rgba(0, 0, 0, 0.16);
+  --color-border: rgba(0, 0, 0, 0.05);
 
-  --color-text-primary: #202124;
-  --color-text-secondary: #5f6368;
-  --color-text-tertiary: #80868b;
+  /* Google brand colors */
+  --color-google-red: #EA4335;
+  --color-google-yellow: #FBBC04;
+  --color-google-green: #34A853;
+  --color-google-blue: #4285F4;
 
-  --color-border: #dadce0;
-  --color-bg-gray: #f5f5f5;
-  --color-sidebar-hover: #f6fafe;
-  --color-sidebar-active: #fce8e6;
+  /* Gmail specific colors */
+  --color-gmail-blue: #1A73E8;
+  --color-gmail-blue-hover: #1967D2;
+  --color-inbox-red: #C5221F;
+  --color-promotions-green: #188038;
+  --color-social-blue: #3475E0;
+  --color-forums-purple: #944DEB;
+  --color-updates-orange: #D6792D;
 
-  --color-browser-chrome: #3c4043;
-  --color-compose-header: #404040;
+  /* Compose modal */
+  --color-compose-header: #424242;
+  --color-compose-bg: #FFFFFF;
 
-  --color-category-updates: #944fe0;
-  --color-category-social: #3474e0;
-  --color-category-promotions: #d6792d;
+  /* Backgrounds */
+  --color-bg-white: #FFFFFF;
+  --color-bg-gray: #F6F8FC;
+  --color-bg-sidebar-hover: #E8EAED;
+  --color-bg-sidebar-selected: #FCE8E6;
+
+  /* Shadows */
+  --shadow-compose: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
+  --shadow-toolbar: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@font-face {
+  font-family: 'Google Sans';
+  src: url('https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiIUvQ.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Google Sans';
+  src: url('https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjwUvQ.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
 }
 
 body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
-  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg-white);
+  color: var(--color-primary-text);
 }
 
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 20px;
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
+* {
+  box-sizing: border-box;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
 }
