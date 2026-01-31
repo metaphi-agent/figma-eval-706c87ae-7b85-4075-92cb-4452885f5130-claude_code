@@ -1,0 +1,15 @@
+{
+  "figma_file_key": "yIF0C1zRaEne4emCbwJqSH",
+  "total_frames": 9,
+  "frames": [
+    {"name": "Single Email - No Draft", "node_id": "212:25782", "gt_image": "Full-UI-Single-No-Draft.png", "target_route": "/email/single"},
+    {"name": "Single Email - With Compose", "node_id": "212:33675", "gt_image": "Full-UI-Single-No-Draft-1.png", "target_route": "/email/single-compose"},
+    {"name": "Single Email - With Two Compose", "node_id": "212:34680", "gt_image": "Full-UI-Single-No-Draft-2.png", "target_route": "/email/single-compose-two"},
+    {"name": "Multiple Recipients - No Draft", "node_id": "212:32769", "gt_image": "Full-UI-Multiple-No-Draft.png", "target_route": "/email/multiple"},
+    {"name": "Multiple Recipients - With Compose", "node_id": "212:33679", "gt_image": "Full-UI-Multiple-No-Draft-1.png", "target_route": "/email/multiple-compose"},
+    {"name": "Multiple Recipients - With Two Compose", "node_id": "212:34684", "gt_image": "Full-UI-Multiple-No-Draft-2.png", "target_route": "/email/multiple-compose-two"},
+    {"name": "Subscription Email - No Draft", "node_id": "212:33221", "gt_image": "Full-UI-Subscription.png", "target_route": "/email/subscription"},
+    {"name": "Subscription Email - With Compose", "node_id": "212:33683", "gt_image": "Full-UI-Subscription-1.png", "target_route": "/email/subscription-compose"},
+    {"name": "Subscription Email - With Two Compose", "node_id": "212:34688", "gt_image": "Full-UI-Subscription-2.png", "target_route": "/email/subscription-compose-two"}
+  ]
+}

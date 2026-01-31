@@ -1,0 +1,69 @@
+{
+  "colors": {
+    "primary": {
+      "text": "#202124",
+      "textLight": "rgba(0, 0, 0, 0.54)",
+      "textMedium": "rgba(0, 0, 0, 0.37)",
+      "textSubtle": "rgba(0, 0, 0, 0.16)",
+      "border": "rgba(0, 0, 0, 0.05)"
+    },
+    "google": {
+      "red": "#EA4335",
+      "yellow": "#FBBC04",
+      "green": "#34A853",
+      "blue": "#4285F4"
+    },
+    "categories": {
+      "inbox": {
+        "dark": "#C5221F",
+        "light": "#FADBD8"
+      },
+      "promotions": {
+        "badge1": "#188038",
+        "badge2": "#34A853"
+      },
+      "social": "#3475E0",
+      "forums": "#944DEB",
+      "updates": "#D6792D"
+    },
+    "button": {
+      "primary": "#1A73E8",
+      "primaryDivider": "#1859BA"
+    },
+    "background": {
+      "white": "#FFFFFF",
+      "gray": "#F6F8FC",
+      "compose": "#424242"
+    }
+  },
+  "typography": {
+    "fontFamily": "Roboto, sans-serif",
+    "sizes": {
+      "xs": "0.75rem",
+      "sm": "0.875rem",
+      "base": "1rem",
+      "lg": "1.375rem"
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "bold": 700
+    }
+  },
+  "spacing": {
+    "xs": "4px",
+    "sm": "8px",
+    "md": "16px",
+    "lg": "24px",
+    "xl": "32px"
+  },
+  "borderRadius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "16px",
+    "full": "9999px"
+  },
+  "shadows": {
+    "compose": "0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2)"
+  }
+}
